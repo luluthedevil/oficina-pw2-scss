@@ -1,0 +1,10 @@
+header{
+    background-color: $backColor;
+    @include flexCenter(column);
+    button {
+        background-color: red;
+        &:hover {
+            background-color: pink;
+        }
+    }
+}

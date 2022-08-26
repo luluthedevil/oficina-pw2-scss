@@ -1,0 +1,17 @@
+@import "./reset";
+@import "./variaveis";
+@import "./funcoes";
+@import "./header";
+
+.container {
+    @extend header;
+    background-color: green;
+    width: 100% - 20%;
+    button {
+        background-color: darkviolet;
+        &:hover {
+            background-color: fuchsia;
+        }
+    }
+}
+
